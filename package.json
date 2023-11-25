@@ -1,6 +1,6 @@
 {
   "name": "machi-cat-ui-library",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "type": "module",
   "main": "dist/machi-cat-ui-library.common.js",
   "scripts": {
