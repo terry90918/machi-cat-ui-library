@@ -1,0 +1,17 @@
+// src/styles/_typography.scss
+@import './variables';
+
+.small-text {
+  font-size: $font-size-small;
+  font-weight: $font-weight-light;
+}
+
+.medium-text {
+  font-size: $font-size-medium;
+  font-weight: $font-weight-regular;
+}
+
+.large-text {
+  font-size: $font-size-large;
+  font-weight: $font-weight-bold;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "my-ui-library",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/my-ui-library.common.js",
+  "scripts": {
+    "serve": "vue-cli-service serve dev/main.js",
+    "build": "rollup -c",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@rollup/plugin-buble": "^1.0.3",
+    "@vue/cli-service": "^5.0.8",
+    "rollup": "^4.5.2",
+    "rollup-plugin-scss": "^4.0.0",
+    "rollup-plugin-vue": "^6.0.0",
+    "sass": "^1.69.5",
+    "sass-loader": "^13.3.2",
+    "vue-template-compiler": "^2.7.15",
+    "vuepress": "^1.9.10"
+  }
+}
