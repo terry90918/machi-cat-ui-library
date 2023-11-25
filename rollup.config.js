@@ -5,12 +5,20 @@ import scss from 'rollup-plugin-scss'; // Handle .scss files
 
 export default {
   input: 'src/index.js', // 你的入口文件
-  output: {
-    name: 'MachiCatUI',
-    exports: 'named',
-    file: 'dist/machi-cat-ui-library.common.js', // Output file path
-    format: 'cjs', // Output format
-  },
+  output: [
+    {
+      name: 'MachiCatUI',
+      exports: 'named',
+      file: 'dist/machi-cat-ui-library.esm.js', // Output file path
+      format: 'esm', // Output format
+    },
+    {
+      name: 'MachiCatUI',
+      exports: 'named',
+      file: 'dist/machi-cat-ui-library.umd.js', // Output file path
+      format: 'umd', // Output format
+    },
+  ],
   plugins: [
     scss(), // Handle .scss files
     vue({

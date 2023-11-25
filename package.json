@@ -1,8 +1,9 @@
 {
   "name": "machi-cat-ui-library",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "type": "module",
-  "main": "dist/machi-cat-ui-library.common.js",
+  "main": "dist/machi-cat-ui-library.esm.js",
+  "unpkg": "dist/machi-cat-ui-library.umd.js",
   "scripts": {
     "serve": "vue-cli-service serve dev/main.js",
     "build": "rollup -c",
