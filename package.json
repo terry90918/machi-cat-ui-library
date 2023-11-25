@@ -7,7 +7,8 @@
     "serve": "vue-cli-service serve dev/main.js",
     "build": "rollup -c",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "prepublishOnly": "npm run build"
   },
   "files": [
     "dist"
