@@ -1,8 +1,8 @@
 {
-  "name": "my-ui-library",
+  "name": "machi-cat-ui-library",
   "version": "1.0.0",
   "type": "module",
-  "main": "dist/my-ui-library.common.js",
+  "main": "dist/machi-cat-ui-library.common.js",
   "scripts": {
     "serve": "vue-cli-service serve dev/main.js",
     "build": "rollup -c",

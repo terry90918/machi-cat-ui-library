@@ -6,9 +6,9 @@ import scss from 'rollup-plugin-scss'; // Handle .scss files
 export default {
   input: 'src/index.js', // 你的入口文件
   output: {
-    name: 'MyComponent',
+    name: 'MachiCatUI',
     exports: 'named',
-    file: 'dist/my-ui-library.common.js', // Output file path
+    file: 'dist/machi-cat-ui-library.common.js', // Output file path
     format: 'cjs', // Output format
   },
   plugins: [
