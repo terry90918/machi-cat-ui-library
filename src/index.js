@@ -1,8 +1,9 @@
 // src/index.js
 import './styles/index.scss';
+import Button from './components/Button.vue';
 
 const install = (Vue) => {
-  // 這裡可以添加其他的全局註冊
+  Vue.component('mc-button', Button);
 };
 
 // 如果是在瀏覽器直接引入，則自動安裝
