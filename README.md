@@ -14,7 +14,7 @@ web-ui-library/
 |   |   |-- output-cfAqH-RR.css
 |   |-- my-ui-library.common.js
 |
-|-- dev/
+|-- docs/
 |   |-- README.md
 |
 |-- src/
