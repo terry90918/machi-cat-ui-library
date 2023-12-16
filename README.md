@@ -28,12 +28,14 @@ machi-cat-ui-library/
 |-- README.md
 ```
 
-components/：這個資料夾通常包含所有的React組件。
-dist/：這個資料夾通常包含編譯後的代碼，這些代碼可以直接在瀏覽器中運行。
-docs/：這個資料夾通常包含專案的文件，如設計文檔、使用說明等。
-nd-tools/：這個資料夾的用途可能會根據專案的不同而有所不同，但通常可能包含一些用於開發的工具或腳本。
-scripts/：這個資料夾通常包含一些用於構建、部署或測試專案的腳本。
-site/：這個資料夾可能包含專案的網站或者示例頁面。
-tests/：這個資料夾通常包含專案的測試代碼。
-package.json：這個文件包含了專案的元數據和依賴信息。
-README.md：這個文件通常包含專案的簡介和使用說明。
+- components/：這個目錄包含了所有的 Vue.js 組件，如 button/ 和 version/。index.js 是這些組件的入口檔案，vite.config.js 是 Vite 的配置檔案。
+- dist/：這個目錄是 Vite 打包後的產出目錄，包含了所有打包後的靜態檔案。
+- site/：這個目錄可能是用來放置專案的官方網站或者是示例網站。
+  - dist/：這個目錄是 Vite 打包後的產出目錄，包含了所有打包後的靜態檔案。
+  - public/：這個目錄包含了所有的公共檔案，如圖片、字體等。
+  - src/：這個目錄包含了所有的源碼檔案，如 Vue.js 組件、路由配置、Vuex 儲存庫、視圖等。
+  - index.html：這是專案的入口 HTML 檔案。
+  - vite.config.js：這是 Vite 的配置檔案。
+- .gitignore：這個檔案是用來告訴 Git 哪些檔案或目錄不應該被版本控制系統追蹤。
+- package-lock.json 和 package.json：這兩個檔案是用來管理專案的依賴包。
+- README.md：這個檔案通常用來說明專案的安裝、使用方法等資訊。
