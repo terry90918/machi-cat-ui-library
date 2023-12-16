@@ -3,17 +3,27 @@
 ```
 machi-cat-ui-library/
 |-- components/
+|  |-- button/
+|  |-- version/
+|  |-- index.js
+|  |-- vite.config.js
 |-- dist/
-|-- docs/
-|-- nd-tools/
-|-- scripts/
 |-- site/
+|  |-- dist/
 |  |-- public/
-|  |-- scripts/
 |  |-- src/
+|  |  |-- assets/
+|  |  |-- components/
+|  |  |-- router/
+|  |  |-- store/
+|  |  |-- views/
+|  |  |-- App.vue
+|  |  |-- main.js
+|  |-- .gitignore
 |  |-- index.html
 |  |-- vite.config.js
-|-- tests/
+|-- .gitignore
+|-- package-lock.json
 |-- package.json
 |-- README.md
 ```
