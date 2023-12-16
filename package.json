@@ -1,31 +1,23 @@
 {
   "name": "machi-cat-ui-library",
-  "version": "0.1.2",
+  "version": "0.0.1",
+  "private": true,
   "type": "module",
-  "main": "dist/machi-cat-ui-library.esm.js",
-  "unpkg": "dist/machi-cat-ui-library.umd.js",
   "scripts": {
-    "serve": "vue-cli-service serve dev/main.js",
-    "build": "rollup -c",
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "prepublishOnly": "npm run build"
+    "dev": "vite site",
+    "build:components": "vite build components",
+    "build:site": "vite build site"
   },
-  "files": [
-    "dist"
-  ],
   "peerDependencies": {
     "vue": "^2.6.14"
   },
   "devDependencies": {
-    "@rollup/plugin-buble": "^1.0.3",
-    "@vue/cli-service": "^5.0.8",
-    "rollup": "^4.5.2",
-    "rollup-plugin-scss": "^4.0.0",
-    "rollup-plugin-vue": "^6.0.0",
+    "@vitejs/plugin-vue2": "^2.3.1",
     "sass": "^1.69.5",
-    "sass-loader": "^13.3.2",
+    "sass-loader": "^12.6.0",
+    "vite": "^5.0.10",
+    "vue-router": "^3.6.5",
     "vue-template-compiler": "^2.7.15",
-    "vuepress": "^1.9.10"
+    "vuex": "^3.6.2"
   }
 }
