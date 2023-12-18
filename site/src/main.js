@@ -2,10 +2,8 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
-import "./assets/main.css";
 
-import MachiCat from "../../src/main";
-Vue.use(MachiCat);
+import "./assets/main.css";
 
 const app = new Vue({
   router,
