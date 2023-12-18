@@ -3,10 +3,10 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
+    "build": "vite build package",
+    "dev": "vite serve site",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "package:dev": "vite serve site",
-    "package:build": "vite build package"
+    "docs:build": "vuepress build docs"
   },
   "peerDependencies": {
     "vue": "^2.6.14"
@@ -20,7 +20,6 @@
     "vite": "^5.0.10",
     "vue": "^2.7.15",
     "vue-router": "^3.6.5",
-    "vuepress": "^1.9.10",
     "vuex": "^3.6.2"
   }
 }
