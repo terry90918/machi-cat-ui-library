@@ -4,9 +4,9 @@ import vue from '@vitejs/plugin-vue2'
 
 export default defineConfig({
   build: {
-    outDir: '../dist',
+    outDir: './dist',
     rollupOptions: {
-      input: fileURLToPath(new URL('./index.js', import.meta.url))
+      input: fileURLToPath(new URL('./src/main.js', import.meta.url))
     }
   },
   plugins: [
@@ -14,7 +14,7 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./index.js', import.meta.url))
+      '@': fileURLToPath(new URL('./src/main.js', import.meta.url))
     }
   }
 })

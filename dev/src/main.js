@@ -4,7 +4,7 @@ import router from "./router";
 import store from "./store";
 import "./assets/main.css";
 
-import MachiCat from "../../components";
+import MachiCat from "../../src/main";
 Vue.use(MachiCat);
 
 const app = new Vue({

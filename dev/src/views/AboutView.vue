@@ -1,6 +1,7 @@
 <template>
   <div class="about">
     <h1>This is an about page</h1>
+    <McBtn class="mc-ml-2">Click me</McBtn>
   </div>
 </template>
 
