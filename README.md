@@ -2,10 +2,12 @@
 
 ```
 machi-cat-ui-library/
-|-- components/
+|-- package/
 |  |-- button/
 |  |-- version/
 |  |-- index.js
+|  |-- postcss.config.js
+|  |-- tailwind.config.js
 |  |-- vite.config.js
 |-- dist/
 |-- site/
